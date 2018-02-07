@@ -6,7 +6,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  int pin = A0;
+  int pin = A1;
   int ledpin = 9;
   int value = analogRead(pin);
   Serial.print("Sensor Value:");
